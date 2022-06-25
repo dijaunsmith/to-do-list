@@ -29,13 +29,6 @@ h1 {
   align-items: center;
   border-bottom: 1px solid #F1F1F1;
 }
-.website-link{
-  text-decoration: none;
-  color: #6d28e6;;
-}
-.website-link:hover{
-  color: #A683E3;
-}
 
 .item:last-child {
   border-bottom: 0;
@@ -58,7 +51,7 @@ p {
   color: #00204a;
 }
 
-form {
+form.item {
   text-align: center;
   margin-left: 20px;
 }
@@ -79,6 +72,7 @@ button:hover{
   cursor: pointer;
 
 }
+
 
 input[type="text"] {
   text-align: center;
@@ -105,4 +99,12 @@ footer {
   color: white;
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
+}
+
+.website-link{
+  text-decoration: none;
+  color: #6d28e6;
+}
+.website-link:hover{
+  color: rgb(105, 8, 137);
 }
